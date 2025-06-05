@@ -22,7 +22,7 @@ public class SortArray {
         int[] sorted = sol.sortArray(nums);
 
         // Step 4: Output the sorted array
-        System.out.println("Sorted array:");
+        System.out.println("Sorted Array:");
         for (int num : sorted) {
             System.out.print(num + " ");
         }
@@ -38,3 +38,14 @@ class Solution10 {
         return nums;       // Return the sorted array
     }
 }
+
+// OUTPUT:
+// Enter number of elements: 5
+// Enter the elements:
+// 1
+// 2
+// 7
+// 12
+// 5
+// Sorted Array:
+// 1 2 5 7 12 
