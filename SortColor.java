@@ -21,7 +21,7 @@ public class SortColor{
         sol.sortColor(nums);  // Sorting the array in-place
 
         // Step 4: Output the sorted array
-        System.out.println("Sorted array:");
+        System.out.println("Sorted Array:");
         for (int num : nums) {
             System.out.print(num + " ");
         }
@@ -70,3 +70,10 @@ class Solution11 {
         sortColors(nums, start, high);
     }
 }
+
+// OUTPUT:
+// Enter number of elements: 6
+// Enter the elements (only 0s, 1s, and 2s):
+// 1 1 2 1 0 2
+// Sorted Array:
+// 0 1 1 1 2 2
