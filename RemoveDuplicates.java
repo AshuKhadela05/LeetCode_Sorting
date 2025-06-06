@@ -51,3 +51,10 @@ class Solution12 {
         return i + 1; // Number of unique elements
     }
 }
+
+// OUTPUT:
+// Enter number of elements: 5
+// Enter sorted elements (e.g., 1 1 2 2 3):
+// 1 1 2 2 3
+// Array after removing duplicates:
+// 1 2 3
