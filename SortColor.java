@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SortColor{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        
         // Step 1: Input number of elements
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
@@ -77,3 +77,4 @@ class Solution11 {
 // 1 1 2 1 0 2
 // Sorted Array:
 // 0 1 1 1 2 2
+
